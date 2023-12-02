@@ -1,6 +1,6 @@
 # Resumen del Curso de Frontend Developer
 
-[GitHub Pages](http://https://velasco1704.github.io/curso-frontend-developer/ "GitHub Pages")
+[GitHub Pages](https://velasco1704.github.io/curso-frontend-developer/ "GitHub Pages")
 
 ## HTML Semántico:
 
