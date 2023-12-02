@@ -242,8 +242,7 @@ main h1 {
   gap: 0.25rem;
 }
 
-.card__followers__numbers,
-.card__following__numbers {
+.card__numbers {
   font-weight: bold;
 }
 
