@@ -1,5 +1,7 @@
 # Resumen del Curso de Frontend Developer
 
+[GitHub Pages](http://https://velasco1704.github.io/curso-frontend-developer/ "GitHub Pages")
+
 ## HTML Semántico:
 
 <p>Al utilizar elementos semánticos apropiados, se mejora la estructura y comprensión del contenido de una página web tanto para los desarrolladores como para los motores de búsqueda.</p>
