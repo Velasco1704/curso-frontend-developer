@@ -1,11 +1,12 @@
-#Resumen del Curso de Frontend Developer
+# Resumen del Curso de Frontend Developer
 
-##HTML Semántico:
+## HTML Semántico:
 
 <p>Al utilizar elementos semánticos apropiados, se mejora la estructura y comprensión del contenido de una página web tanto para los desarrolladores como para los motores de búsqueda.</p>
 
-##Etiquetas De HTML:
-###Layout:
+## Etiquetas De HTML:
+
+### Layout:
 
 <ul>
 <li>Header</li>
@@ -16,13 +17,13 @@
 <li>Footer</li>
 </ul>
 
-###Enlaces:
+### Enlaces:
 
 <ul>
 <li>a</li>
 </ul>
 
-###Textos:
+### Textos:
 
 <ul>
 <li>h1, h2, h3, h4, h5, h6</li>
@@ -30,7 +31,7 @@
 <li>span</li>
 </ul>
 
-###Imágenes y Videos:
+### Imágenes y Videos:
 
 <ul>
 <li>img</li>
@@ -40,7 +41,7 @@
 <li>video</li>
 </ul>
 
-###Formularios:
+### Formularios:
 
 <ul>
 <li>form</li>
@@ -49,7 +50,7 @@
 <li>button</li>
 </ul>
 
-###Listas:
+### Listas:
 
 <ul>
 <li>ul</li>
@@ -57,9 +58,9 @@
 <li>li</li>
 </ul>
 
-#CSS
+# CSS
 
-##Selectores Básicos:
+## Selectores Básicos:
 
 <ul>
 <li>De tipo = div {...}</li>
@@ -69,7 +70,7 @@
 <li>Universal = * {...}</li>
 </ul>
 
-##Selectores Combinadores:
+## Selectores Combinadores:
 
 <ul>
 <li>Descendientes = div p{...}</li>
@@ -78,7 +79,7 @@
 <li>General De Hermanos = div ~ p {...}</li>
 </ul>
 
-##Pseudoclases:
+## Pseudoclases:
 
 <ul>
 <li>:active</li>
@@ -88,7 +89,7 @@
 <li>:checked</li>
 </ul>
 
-##Pseudoelementos:
+## Pseudoelementos:
 
 <ul>
 <li>::after</li>
@@ -97,7 +98,7 @@
 <li>::placeholder</li>
 </ul>
 
-##Especificidad:
+## Especificidad:
 
 <ul>
 <li>!important (1,0,0,0,0)</li>
@@ -108,7 +109,7 @@
 <li>Selector Universal (0,0,0,0,0)</li>
 </ul>
 
-##Tipos de Display:
+## Tipos de Display:
 
 <ul>
 <li><strong>Inline: </strong>Su caja se ajusta al contenido, integrándose al texto sin crear nuevas líneas. Limitaciones incluyen la imposibilidad de añadir márgenes o modificar su tamaño.</li>
@@ -119,7 +120,7 @@
 <li><strong>Grid: </strong>Herramienta de diseño que establece una cuadrícula, permitiendo un control preciso de la disposición de elementos en filas y columnas. Óptimo para estructuras más complejas y alineaciones detalladas.</li>
 </ul>
 
-##Modelo de Caja:
+## Modelo de Caja:
 
 <ul>
 <li><strong>Contenido: </strong> Es el área dentro de la caja que muestra el texto, las imágenes u otros elementos Html.</li>
@@ -128,7 +129,7 @@
 <li><strong>Margin:</strong>Es el espacio que rodea el borde de la caja. Se utiliza para crear espacio entre las cajas adyacentes.</li>
 </ul>
 
-##Posicionamiento:
+## Posicionamiento:
 
 <ul>
 <li><strong>Static: </strong>Es la posición predeterminada sin afectar las propiedades top, bottom, left o right ni admitir z-index.</li>
@@ -138,23 +139,24 @@
 <li><strong>Sticky: </strong>Se comporta como relative hasta salir de la vista, luego se vuelve fixed,ajustándose con top, bottom, left y right.</li>
 </ul>
 
-##Z-index y el Contexto de Apilamiento:
+## Z-index y el Contexto de Apilamiento:
 
 <p>Z-index es una propiedad de CSS que se utiliza para controlar el orden de apilamiento de los elementos posicionados en una página web. Esta propiedad determina qué elementos se muestran por encima de otros cuando se superponen en la página.</p>
 
-##Unidades De Medida:
+## Unidades De Medida:
 
 <ul>
 <li><strong>Absolutas: </strong>px - pt - pc - in - cm - mm</li>
 <li><strong>Relativas: </strong>rem - em - vw - vh - vmin - vmax - ex - ch</li>
 </ul>
 
-##Responsive Design:
+## Responsive Design:
 
 <p>Las Media Queries son una característica de CSS que permite adaptar el contenido a diferentes tipos de dispositivos y tamaños de pantalla. Son una parte fundamental del diseño web responsivo.</p>
 
-##Arquitecturas de CSS:
-###OOCSS:
+## Arquitecturas de CSS:
+
+### OOCSS:
 
 <p>Significa CSS Orientado a Objetos, es una metodología para escribir CSS de manera más eficiente y sostenible. Se basa en dos principios fundamentales:</p>
 <ul>
@@ -162,7 +164,7 @@
 <li>Separación de contenedor e contenido: Este principio sugiere que los estilos no deben estar vinculados a un contenedor específico. En su lugar, los estilos deben ser independientes y reutilizables en diferentes contextos.</li>
 </ul>
 
-###BEM:
+### BEM:
 
 <p>Significa Block Element Modifier, es una metodología de nomenclatura para escribir CSS de manera más estructurada y modular. Se basa en tres conceptos principales:
 </p>
@@ -172,7 +174,7 @@
 <li><strong>Modificador (Modifier): </strong>Son variaciones o estados diferentes de un bloque o elemento. Los modificadores se utilizan para cambiar la apariencia o el comportamiento de un bloque o elemento sin tener que escribir estilos CSS adicionales.</li>
 </ul>
 
-###SMACSS:
+### SMACSS:
 
 <p>Significa Scalable and Modular Architecture for CSS, es una metodología para organizar y estructurar el código CSS de manera más eficiente y mantenible. Se basa en cinco categorías principales:</p>
 <ul>
@@ -184,7 +186,7 @@
 </li>
 </ul>
 
-###Atomic Design:
+### Atomic Design:
 
 <p>Es un sistema de trabajo que se basa en la creación de elementos modulares sencillos para crear estructuras de información mucho más complejas. Cada vez tenemos que diseñar para más tamaños de pantallas y para distintos dispositivos (móviles, tabletas, TV, etc.) y necesitamos procesos que eviten errores y faciliten el desarrollo. Se basa en 5 niveles:
 </p>
